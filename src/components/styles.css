@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* BooksPage styles */
+.books-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.book-item {
+  margin-bottom: 10px;
+}
+
+/* BookDetailsPage styles */
+.book-details {
+  margin-top: 20px;
+}
+
+.book-details table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-details th, .book-details td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.book-details th {
+  background-color: #f2f2f2;
+}
